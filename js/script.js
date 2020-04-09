@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     for (var i = 0; i < cell.length; i++) {
         cell[i].addEventListener('click', cellClick, false);
+        cell[i].addEventListener('touchstart', cellClick, false);
     }
 
     function cellClick() {
